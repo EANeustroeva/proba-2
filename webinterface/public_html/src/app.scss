@@ -1,0 +1,25 @@
+@import "variables";
+
+// @import '~bootstrap/scss/functions';
+// @import 'bootstrap-variables';
+// @import '~bootstrap/scss/bootstrap';
+
+@import '~bootstrap/scss/functions';
+@import '../public/adminlte3/build/scss/bootstrap-variables';
+@import "../bootstrap/scss/bootstrap-material-design.scss";
+
+@import '../public/adminlte3/build/scss/variables';
+@import '../public/adminlte3/build/scss/mixins';
+@import '../public/adminlte3/build/scss/parts/core';
+@import '../public/adminlte3/build/scss/parts/components';
+@import '../public/adminlte3/build/scss/parts/extra-components';
+@import '../public/adminlte3/build/scss/parts/pages';
+@import '../public/adminlte3/build/scss/parts/plugins';
+@import '../public/adminlte3/build/scss/parts/miscellaneous';
+
+// @import "~bootstrap/scss/bootstrap";
+
+// @import "~bootstrap-material-design/scss/_core.scss";
+// @import "~bootstrap-material-design/dist/css/bootstrap-material-design.min.css";
+
+@import "custom";

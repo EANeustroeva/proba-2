@@ -1,0 +1,35 @@
+## Start of configuration add by letsencrypt container
+location ^~ /.well-known/acme-challenge/ {
+    auth_basic off;
+    auth_request off;
+    allow all;
+    root /usr/share/nginx/html;
+    try_files $uri =404;
+    break;
+}
+## End of configuration add by letsencrypt container
+
+location /ide/ {
+	root /usr/share/nginx/html;
+	index index.html;
+}
+
+location /api/ {
+	root /usr/share/nginx/html;
+	index index.html;
+}
+
+location ^~ /images/ {
+    root /usr/share/nginx/html/ide;
+}
+
+#server {
+#	server_name codejudge.sanchozzz.beget.tech;
+#
+#	root /usr/share/nginx/html/codejudge;
+#	index index.html;
+#
+#	location / {
+#		#try_files $uri $uri/ =404;
+#	}
+#}

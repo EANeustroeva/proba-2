@@ -1,0 +1,20 @@
+body {
+    background: conic-gradient(from 180deg at 50% 50%, #E0E7EA 0deg, rgba(85, 183, 236, 0.5) 296.13deg, #E0E7EA 360deg), #E0E7EA;
+}
+
+.login-box, .register-box {
+    margin: auto;
+    padding-top: 200px;
+}
+
+.login-box-body {
+    padding: 40px;
+    
+    width: 360px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.main-sidebar {
+    background: linear-gradient(180deg, #55B7EC 0%, #145E82 100%), #55B7EC;
+}
